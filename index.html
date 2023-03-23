@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <label>Search by index number</label>
-    <input type="text" name="" id="indexNum"><br>
-    <button onclick="indexNUmber()">Search</button>
-  </body>
-  <script type="module" src="./src/emp.ts"></script>
-  </html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+  <script src="t-1.ts"></script>
+</head>
+
+<body>
+ 
+
+
+  <label>Search by ID:</label>
+  <input type="number" name="" id="idno"><br>
+  <button onclick="idNumber()">Search</button><br><br>
+
+
+  <label>Search by index number:</label>
+  <input type="number" name="" id="index"><br>
+  <button onclick="indexNumber()">Search</button><br><br>
+
+
+  <label>Insert Deatils</label>
+  <button onclick="addDetail()">Insert</button><br><br>
+
+  <button onclick="getTable()">GET TABLE</button>
+  <table id="empdata">
+  </table>
+
+</body>
+
+</html>
