@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         var months=["January", "February", "March", "April", "May", "June",
+//   "July", "August", "September", "October", "November", "December"];
+     
+
+//   var month=new Date("10/11/2009");
+//   console.log(months[month.getMonth()+1]);
+
+
+// weekend or not.
+
+// function weekend(date=new Date()) {
+//     return date.getDay()===6 || date.getDay()===0;
+// }
+// var day=new Date('2014-11-17');
+// console.log(weekend(day));
+
+// difference between two date 
+
+// var d=new Date('11-04-2014')
+// var d1=new Date('04-02-2014')
+//  var diff =(d-d1);
+//  var day=(diff/(1000*60*60*24))
+//  console.log(day);
+
+// last day of a month 
+
+// var day = function (y, m) {
+//             return new Date(y, m, 0).getDate();
+
+//         }
+//         console.log(day(2012, 1));
+//         console.log(day( 2012,2));
+//         console.log(day( 2012,3));
+//         console.log(day( 2012,4));
+
+// calculate yesterday
+
+// var today=new Date()
+// var yesterday=new Date(today.getDate()-1);
+// console.log(yesterday)
+
+
+
+// convert min in to hours
+
+function hours(min) {
+    var hours=(min/60) //3...
+    var rhours=Math.floor(hours) //3
+    var minute=(hours-rhours)*60
+    var rmin=Math.floor(minute);
+    
+    console.log("hours: "+rhours+ "\n Minute:"+rmin);
+}
+hours(200)
+    </script>
+</body>
+</html>
